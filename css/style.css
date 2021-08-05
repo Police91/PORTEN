@@ -1,0 +1,330 @@
+
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+*/
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    color: #fff;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto; 
+}
+.title{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+}
+
+/*Top line*/
+.top__line{
+    max-width: 1920px;
+    height: 44px;
+    background: #000000;
+}
+.top__line-item{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;   
+}
+.phone{
+    margin-right: 15px;
+}
+.time{
+    margin-left: 15px;
+}
+.exit{
+    margin-right: 10px;
+}
+/*Top line*/
+/*Header*/
+.header{
+    max-width: 1920px;
+    height: 80px;
+    top: 44px;
+    background: #0F0F0F;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.menu__list{
+    display: flex;
+}
+.menu__item{
+    margin: 0 18px;
+}
+.menu__list-link{
+    text-transform: uppercase;
+    color: #fefefe;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 5px;
+    transition: all .5s;
+    border-bottom: 1px solid transparent;
+}
+.menu__list-link:hover{
+    border-bottom: 1px solid #fefefe;
+}
+.header__box{
+    display: flex;
+}
+.box{
+    margin-right: 45px;
+}
+/*Header*/
+/*Main*/
+.main{
+    max-width: 1920px;
+    height: 810px;
+    top: 124px;
+    background-image: url(../img/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main__img{
+    text-align: center;
+}
+.main__logo{
+    padding-top: 80px;
+}
+.main__text{
+    max-width: 730px;
+    max-height: 96px;
+    padding-top: 80px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*Main*/
+/*Colection*/
+.colection{
+    background-color: black;
+}
+.colection__box{
+    display: flex;
+    justify-content: space-around;
+}
+.season{
+    max-width: 1040px;
+    max-height: 730px;
+}
+.season__title{
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.season__item{
+    display: flex;
+    justify-content: space-between;
+}
+.season__inner{
+    max-width: 260px;
+    max-height: 325px;
+    margin-left: 50px;
+    padding: 50px 20px;
+    background-color: #0000;
+}
+
+.season__inner-watch{
+    margin-bottom: 25px;
+}
+.season__inner:hover{
+    background-color: #191B1C;
+    transition: 2s;
+    cursor: pointer;
+}
+.season__inner-text{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 37px;
+    margin-bottom: 10px;
+}
+.new__colection{
+    position: relative;
+    max-width: 880px;
+    max-height: 730px;
+}
+.new__colection-title{
+    position: absolute;
+    top: 484px;
+    right: 0;
+    left: 0;
+
+
+}
+/*Colection*/
+/*Colection__18*/
+
+.colection__18{
+    background-color: black;
+}
+.colection__18-box{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.colection__18-title{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    max-width: 400px;
+     
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.colection__18-text{
+    max-width: 470px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.colection__18-link{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+/*Colection__18*/
+
+
+
+/*Product*/
+.product{
+    background-color: #000000;
+    padding-top: 120px;
+}
+.product__title{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    max-width: 440px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.product__box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.product__inner{
+    max-width: 260px;
+    max-height: 325px;
+    margin-left: 50px;
+    padding: 50px 20px;
+    background-color: #0000;
+}
+.product__inner-watch{
+    margin-bottom: 25px;
+}
+.product__inner:hover{
+    background-color: #191B1C;
+    transition: 2s;
+    cursor: pointer;
+}
+.product__inner-text{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 37px;
+    margin-bottom: 10px;
+}
+
+/*Product*/
+
+/*BRANDS*/
+.brands{
+    background-color: #0F0F0F;
+    padding-top: 60px;
+}
+.brands__title{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    max-width: 440px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.brands__box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+/*BRANDS*/
+/*ABOUT*/
+.about{
+    background-image: url(../img/about.jpg);
+    padding-bottom: 50px;
+}
+.about__box{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*ABOUT*/
+
